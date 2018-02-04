@@ -1,11 +1,12 @@
 {
   "name": "trippy-word",
   "version": "1.0.0",
-  "description": "Trippy Words website ",
+  "description": "Trippy Words website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js"
+    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js",
+    "start": "node index.js"
   },
   "babel": {
     "presets": [
